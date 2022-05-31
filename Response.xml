@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:header/>
+<soap:Body xmlns:m="http://www.example.org/stock">
+  <m:getStockPrice>
+    <m:StockName>IBM</m:StockName>
+  </m:getStockPrice>
+</soap:Body>
+</soap:Envelope>
